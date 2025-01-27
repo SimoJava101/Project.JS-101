@@ -26,3 +26,20 @@ Add this to your `pom.xml`:
     <artifactId>java-task-manager</artifactId>
     <version>1.0.0</version>
 </dependency>
+src/
+├── main/
+│   └── java/
+│       └── com/
+│           └── simojava/
+│               └── taskmanager/
+│                   ├── Task.java
+│                   ├── TaskManager.java
+│                   ├── Priority.java
+│                   └── exceptions/
+│                       └── TaskExecutionException.java
+├── test/
+│   └── java/
+│       └── com/
+│           └── simojava/
+│               └── taskmanager/
+│                   └── TaskManagerTest.java
